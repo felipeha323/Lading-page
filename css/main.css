@@ -55,12 +55,7 @@ a{
 
 
 
-header{
-    background: #222324;
-    height: 100vh;
-    width: 100%;
-    
-}
+
 	
 nav{
 	
@@ -99,18 +94,55 @@ nav li{
 	margin:0 20px;
 }
 
-.about{
-	display: flex;
-	justify-content: space-between;
-	text-align: center;
-	align-items: center;
-	
-	width: 100%;
+header{
 	height: 100vh;
+	background: #222324;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+	
+	
 
 }
-.about_info{
+ header .about_info{
 	justify-content: center;
+	color: white;
+	width: 40%;
+
+}
+
+header .about_info h1{
+	font-size: 50px;
+	font-weight: 700;
 	
-	
+}
+
+header .about_info hr{
+	margin: 12px auto;
+	width: 100%;
+	border: 1px solid white;
+}
+
+header .about_info p{
+	font-size: 30px;
+	font-weight: 400; 
+
+}
+
+header .btn_about{
+	padding: 15px 40px;
+	background: #F5604B;
+	color: white;
+	transition: background-color 0.4s;
+	border : 1px solid #F5604B;
+	line-height: 100px;
+}
+
+header .btn_about:hover{
+	background-color: transparent;
+}
+
+header .btn_about:active{
+	background-color: #F5604B;
 }
