@@ -1,0 +1,25 @@
+/* nav*/
+
+@media screen and (max-width:1003px) {
+    nav ul .menu{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    /*header*/
+    
+    header{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    header .about_info{
+     margin-bottom: 0px;
+     min-width: 250px;
+      
+        
+    }
+    header img{
+        display: none;
+    }
+}
+

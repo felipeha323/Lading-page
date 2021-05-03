@@ -60,7 +60,7 @@ a{
 nav{
 	
 	display: flex;
-	min-width: 100vw;
+	min-width: 100%;
 	background-color:#222324;
 	display: inline-flex;
 	margin: 20px 0;
@@ -101,6 +101,7 @@ header{
 	justify-content: space-around;
 	align-items: center;
 	text-align: center;
+	width: 100%;
 	
 	
 
@@ -109,22 +110,28 @@ header{
 	justify-content: center;
 	color: white;
 	width: 40%;
+	
+	
 
 }
 
 header .about_info h1{
+	
 	font-size: 50px;
 	font-weight: 700;
 	
 }
 
 header .about_info hr{
+	
 	margin: 12px auto;
-	width: 100%;
+	width: 80%;
 	border: 1px solid white;
 }
 
 header .about_info p{
+	
+	text-align: center;
 	font-size: 30px;
 	font-weight: 400; 
 
@@ -146,3 +153,4 @@ header .btn_about:hover{
 header .btn_about:active{
 	background-color: #F5604B;
 }
+
