@@ -1,25 +1,67 @@
 /* nav*/
 
-@media screen and (max-width:1003px) {
-    nav ul .menu{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    /*header*/
-    
-    header{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    
-    header .about_info{
-     margin-bottom: 0px;
-     min-width: 250px;
-      
-        
-    }
+@media screen and (max-width:960px) {
     header img{
         display: none;
     }
+
+
+    nav{ 
+        height: 50px;
+         transition: 0.4s; 
+         overflow: hidden;
+         justify-content: space-around;
+        }
+
+    nav.menu{
+        position: absolute; 
+        top: 50px;
+        right: 0; 
+        left: 0;
+        padding: 30px; 
+        display: block;
+    }
+    nav ul{
+        margin: 0 0.5px;
+    }
+    
+    nav li{
+        
+        text-align: center;
+        margin: 0 3px;
+    
+    }
+
+    nav li a{
+        font-size: 12px;
+        text-decoration:none;
+        margin: 15px 0;
+    }
+
+    nav li a .bx{
+        font-size: 20px;
+    }
+
+
+    header .about_info h1{
+	
+        font-size: 40px;
+        font-weight: 700;
+        
+    }
+    header .about_info hr{
+        width: 100%;
+        }
+    header .about_info p{
+    font-size: 20px;
+    }
+
+    header .btn_about{
+        padding: 15px 30px;
+        }
+
+
+
+   
 }
 
