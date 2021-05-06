@@ -45,7 +45,7 @@ table {
 a{
 	text-decoration: none;
 	color: black;}
-/*Estilos generales*/
+
 *{
     padding: 0;
     margin: 0;
@@ -55,15 +55,15 @@ a{
 
 
 
-
+/*nav*/
 	
 nav{
-	
+
+
 	display: flex;
 	min-width: 100%;
 	background-color:#222324;
 	display: inline-flex;
-	margin: 20px 0;
 	transition: 0.4s;
 	justify-content: space-between;
 	position: fixed;
@@ -87,12 +87,14 @@ nav a:hover,nav i:hover{
 nav ul{
 display: flex;
 margin:0 40px;
+padding: 1% 0px;
 
 }
 
 nav li{
 	margin:0 20px;
 }
+/*header*/
 
 header{
 	height: 100vh;
@@ -106,7 +108,7 @@ header{
 	
 
 }
- header .about_info{
+ header .header_info{
 	justify-content: center;
 	color: white;
 	width: 40%;
@@ -115,21 +117,21 @@ header{
 
 }
 
-header .about_info h1{
+header .header_info h1{
 	
 	font-size: 50px;
 	font-weight: 700;
 	
 }
 
-header .about_info hr{
+header .header_info hr{
 	
 	margin: 12px auto;
 	width: 80%;
 	border: 1px solid white;
 }
 
-header .about_info p{
+header .header_info p{
 	
 	text-align: center;
 	font-size: 30px;
@@ -153,4 +155,105 @@ header .btn_about:hover{
 header .btn_about:active{
 	background-color: #F5604B;
 }
+
+/*about*/
+
+section{
+	width: 100%;
+	height: 100vh;
+}
+
+
+.about{
+	display: flex;
+	
+}
+
+.about .about_img{
+	display: flex; 
+	justify-content: center;
+	align-items: center;
+	min-width: 50%;
+	min-height: 80vh;
+	background: #FFB3A6;
+	
+}
+.about .about_info{
+	display: flex; 
+	justify-content: center;
+	align-items: center;
+	min-width: 50%;
+	min-height: 100vh;
+	background: #F5604B;
+}
+
+.about_info_content{
+	color: #ffffff;
+	width: 80%;
+	margin: auto;
+}
+.about_info_content h1{
+	font-size: 50px;
+	font-weight: 700;
+	padding-bottom: 5%;
+}
+
+.about_info_content p{
+	font-size: 30px;
+	
+}
+
+.about_info_btn {
+	
+	cursor: pointer;
+	font-size: 20px;
+	line-height: 100px;
+	color: white; 
+	padding: 15px 40px; 
+	background: #E54C3C; 
+	transition: background-color 0.7s;
+	border : 2px solid #E54C3C;
+	
+}
+.about_info_btn:hover{
+	
+	background: transparent;
+}
+.about_info_btn:active{
+	background:#E54C3C ;
+}
+
+/*experiences*/
+
+.experiences{
+	
+	display: flex;
+	text-align: center;
+	min-height: 80vh;
+	flex-direction: column; 
+	align-items: center;
+	
+}
+.experiences h1{
+	padding: 6%;
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.experiences .objects{
+	display: flex;
+	padding: 10px;
+	background: #ffffff;
+}
+.experiences .object{
+	display: flex;
+	background: #FFB3A6;
+	
+}
+
+
+
+
+
+
 

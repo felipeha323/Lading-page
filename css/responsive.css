@@ -7,28 +7,21 @@
 
 
     nav{ 
-        height: 50px;
+        height: 20px;
          transition: 0.4s; 
          overflow: hidden;
          justify-content: space-around;
         }
 
-    nav.menu{
-        position: absolute; 
-        top: 50px;
-        right: 0; 
-        left: 0;
-        padding: 30px; 
-        display: block;
-    }
+    
     nav ul{
-        margin: 0 0.5px;
+        margin: 0 5px;
     }
     
     nav li{
         
         text-align: center;
-        margin: 0 3px;
+        margin: 0 5px;
     
     }
 
@@ -43,22 +36,42 @@
     }
 
 
-    header .about_info h1{
+    header .header_info h1{
 	
         font-size: 40px;
         font-weight: 700;
         
     }
-    header .about_info hr{
+    header .header_info hr{
         width: 100%;
         }
-    header .about_info p{
+    header .header_info p{
     font-size: 20px;
     }
 
     header .btn_about{
         padding: 15px 30px;
         }
+
+    .about .about_img{
+           display: none;
+        }
+
+        .about_info_content{
+            padding-top: 10%;
+            height: 100vh;
+        }
+        .about_info_content h1{
+            font-size: 40px;
+        }
+        .about_info_content p{
+            font-size: 20px;
+        }
+        .about_info_btn {
+            font-size: 15px;
+            padding: 5px 30px; 
+        }
+    
 
 
 
