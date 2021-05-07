@@ -215,6 +215,9 @@ section{
 	border : 2px solid #E54C3C;
 	
 }
+
+
+
 .about_info_btn:hover{
 	
 	background: transparent;
@@ -227,11 +230,13 @@ section{
 
 .experiences{
 	
+	
 	display: flex;
 	text-align: center;
 	min-height: 80vh;
 	flex-direction: column; 
 	align-items: center;
+
 	
 }
 .experiences h1{
@@ -242,14 +247,52 @@ section{
 
 .experiences .objects{
 	display: flex;
-	padding: 10px;
-	background: #ffffff;
+	width: 90%;
+	margin: auto; 
+	justify-content: space-between;
+	text-align: start;
 }
 .experiences .object{
-	display: flex;
-	background: #FFB3A6;
+	
+	
+	width: 30%; 
+	position: relative; 
+	min-height: 300px;
 	
 }
+.experiences .object i{
+	
+	font-size: 58px;
+	 color: #E54C3C;
+	
+	
+	}
+
+.experiences .object h2{
+	font-size: 30px;
+	color: #232526; 
+	font-weight: 500; 
+	margin: 15px 0;
+}
+
+.experiences .object p{
+	font-size: 25px;
+	color:#414345;
+	line-height: 30px;
+	
+}
+
+.experiences .btn_experiences{
+	
+	cursor: pointer;
+	font-size: 20px;
+	font-weight: 500;
+	color: #E54C3C;
+	position: absolute; 
+	bottom: 0; left: 0;
+
+}
+
 
 
 
