@@ -67,6 +67,7 @@ nav{
 	transition: 0.4s;
 	justify-content: space-between;
 	position: fixed;
+	z-index: 999;
 
 }
 nav i, nav a{
@@ -293,6 +294,75 @@ section{
 
 }
 
+/*contact*/
+.contact{
+	max-height: 60vh;
+	background-color: #222324;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+	
+
+}
+
+.contact h1{
+	font-weight: 700;
+	color: white;
+	font-size: 45px;
+}
+
+.contact .contact_info{
+	display: flex;
+	justify-content: space-evenly;
+	margin: 55px;
+	width: 80%;
+}
+
+.contact .contact_info input{
+	border-radius: 15px;
+	padding: 15px 10px;
+	font-size: 25px;
+	width: 40%;
+	color: #ffffff;
+	border: 1px solid rgb(255, 233, 233, 0.5);
+	background-color: transparent;
+	font-weight: 500;
+
+}
+
+.btn_contact {
+	cursor: pointer;
+	padding: 20px 25px;
+	background: #F5604B;
+	color: #ffffff;
+	font-size: 25px;
+	font-weight: 300;
+	border: 2px solid #F5604B;
+	
+}
+
+.btn_contact:hover{
+	background: transparent;
+	transition: 0.5s;
+}
+
+.btn_contact:active{
+	background: #F5604B;
+}
+
+/*footer*/
+
+footer{
+	background-color: #000; 
+	text-align: center;
+	padding: 20px;
+	color: white;
+}
+
+footer p{
+	margin: 5px;
+}
 
 
 
