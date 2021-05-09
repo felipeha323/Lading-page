@@ -296,7 +296,8 @@ section{
 
 /*contact*/
 .contact{
-	max-height: 60vh;
+	position: relative;
+	max-height: 100vh;
 	background-color: #222324;
 	align-items: center;
 	justify-content: center;
@@ -333,7 +334,7 @@ section{
 
 .btn_contact {
 	cursor: pointer;
-	padding: 20px 25px;
+	padding: 10px 25px;
 	background: #F5604B;
 	color: #ffffff;
 	font-size: 25px;

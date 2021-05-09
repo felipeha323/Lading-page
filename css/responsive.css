@@ -85,7 +85,8 @@
         .experiences{
             
             max-width: 100vw; 
-            padding: 50px;
+        
+            padding: 40px;
             
         }
         .experiences h1{
@@ -104,7 +105,7 @@
             flex-direction: column;
 
         }
-        .experiences .object{
+        .experiences .objects .object{
             width: 100%; 
             min-height: 240px; 
             padding: 50px 0;
@@ -125,8 +126,28 @@
                 line-height: 13px;
             }
 
+/*contact*/
 
-
-   
+.contact{
+   max-height: 50vh;
 }
+.contact h1{
+    font-size: 25px;
+}
+
+.contact .contact_info input{
+
+    font-size: 15px;
+
+}
+.btn_contact{
+    font-size: 15px ;
+}
+
+footer p{
+    font-size: 15px;
+}
+
+}
+
 
